@@ -1,0 +1,39 @@
+ /* 
+types of display
+display flex
+display grid 
+display block 
+display inline block
+display inline
+  */
+
+  /* flex */
+
+
+.parentdiv{
+display: flex;
+gap: 30px;
+}
+
+
+ .parentdiv div
+{
+width: 100%;
+background-color: brown;
+color: white;
+}  
+
+grid
+/* .parentdiv
+{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 30px;
+
+}
+
+.parentdiv div
+{
+    background-color: brown;
+    color: white;
+}  */

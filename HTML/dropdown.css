@@ -1,0 +1,48 @@
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    background-color: rgb(102, 68, 68);
+}
+
+.hoverDiv
+{
+    margin: 50px;
+    cursor: pointer;
+}
+
+.hoverDiv ul{
+    background-color: white;
+    width: fit-content;
+    margin-top: 10px;
+    padding: 20px;
+    display: none;
+}
+
+.hoverDiv ul li 
+{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.hoverDiv button
+{
+    background-color: rgb(153, 10, 10);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hoverDiv:hover ul{
+    display: block;
+    transition: all ease-in-out 0.5s;
+}
+

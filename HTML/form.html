@@ -1,0 +1,68 @@
+form receives input in html in frontend and form is a block element a form wraps input and we have various types of
+ inputs namely;
+
+1. input type of text; it is used to receive characters such as, full name, short bio, username etc
+2. input type of password;this is an input field for receiveing password
+3.input type of email; this is an input field for receiveing email
+4.input type of number; this is an input field for receiveing phone number, amount
+5. input type of radio ; this is an input field for selecting one option at a time
+6. input type of checkbox ; his is an input field for selecting more than one option at a time or all option at a time
+7. input type of file is used to receive files (images,videos,files) on your frontend
+8. input type of date; is used to input date 
+note....placeholder gives description of a particular folder element
+
+form validation; enforcing users to input the proper format of their data; it can be done both 
+frontend and back end but if used for frontend you are to add an attribute called <u><strong>REUIRED</strong></u>REQUIRED
+
+WE HAVE 3 BUTTON types
+1. Submit
+2. Reset
+3. BUTTON BY DEFAULT
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <!--html form validation-->
+    <form action="">
+<input type="text" placeholder="Fullname" required>
+<br>
+<br>
+<input type="password" placeholder="password" required>
+<br>
+<br>
+<input type="email" placeholder="input email" required>
+<br>
+<br>
+<input type="number" placeholder="enter a number" required>
+<br>
+<br>
+<input type="radio">
+<br>
+<br>
+<input type="checkbox">
+<br>
+<br>
+<input type="file">
+<br>
+<br>
+<div>
+    Date of birth
+<input type="date">
+</div>
+<br>
+<br>
+<button>SUBMIT</button>
+<br>
+<br>
+<!--LABEL-->
+<div>
+    <label for="">password</label>
+    <input type="password">
+</div>
+
+    </form>
+</body>
+</html>

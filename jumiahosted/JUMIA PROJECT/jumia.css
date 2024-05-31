@@ -1,0 +1,3314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navSec{
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+/* =======HEADER========= */
+header{
+  display: flex;
+  align-items: center;
+  /* align-content: center; */
+  padding: 0 7%;
+  width:100%;
+  gap: 30%;
+  height: 25px;
+  background-color: rgb(233, 225, 225);
+}
+
+/* =======left header====== */
+.firsLefttNav{
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+  gap: 15px;
+}
+.firsLefttNav div img{
+  width: 15px;
+}
+
+
+/* ======right header======== */
+
+.firstRightNav{
+  display: flex;
+  align-items: center;
+  /* padding: 5px 5px; */
+  gap: 10px;
+}
+
+
+.firstRightNav .logoo img{
+  width: 60px;
+   height: 20px; 
+}
+
+.firstRightNav .opay img{
+  width: 50px;
+}
+
+
+
+/* =================NAV BAR================= */
+nav{
+  display: flex;
+  align-content: center;
+  padding: 2px 7%;
+  width: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* ===========jumia left nav========= */
+.jumiaLeftNav{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.jumiaLeftNav div img{
+  width: 100px;
+  height: 60px;
+  margin-right: 70px;
+}
+
+/* =========form== */
+form{
+  display: flex;
+  align-items: inherit;
+  gap: 5px;
+}
+
+/* ========input=========== */
+
+ form input{
+  padding: 8px 50px;
+    width: 540px;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid gray;
+
+ }
+
+ /* ==========p====== */
+ form p{
+  position: absolute;
+  padding: 0 17px;
+  color: gray;
+  font-size: 17px;
+ }
+     
+ /* ==========button============= */
+ form button{
+  background-color: #f68b1e;
+  color: white;
+  padding: 9px 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ }
+  form button:hover{
+  background-color: orange;
+  cursor: pointer;
+ }
+
+ /* ======RIGHT NAV============== */
+ .jumiaRightNav{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+ }
+
+ .stDiv{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+ }
+
+ .stDiv{
+  /* margin: 50px; */
+    /* cursor: pointer; */
+    position: relative;
+    display: inline-block;
+
+ }
+
+ .toggle-div{
+  background-color: white;
+    width: 200px;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* z-index: 100; */
+ }
+
+ .give-height {
+  padding: 18px;
+ }
+
+ .signin-button{
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+ .signin-button a {
+   color: #fff;
+ }
+
+ .signin-button a:hover {
+  color: #fff;
+}
+
+.stDiv ul li {
+  list-style: none;
+  padding-bottom: 10px;
+  display: block;
+  font-size: 13px;
+  padding-left: 21px;
+}
+
+.pt-6 {
+  padding-right: 8px;
+}
+
+  .stDiv:hover .toggle-div{
+  display: block;
+    transition: all ease-in-out 0.5s;
+ }
+
+ .stDiv h5{
+  /* background-color: rgb(153, 10, 10); */
+    /* color: white; */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ .signin-button {
+  margin: auto;;
+  padding: 8px;
+  background-color: #f68b1e;
+ }
+
+ .signin-button:hover {
+  background-color: #c46f1b;
+ }
+ ul li:hover{
+  background-color: #f1f1f2;
+  cursor: pointer;
+ }
+
+ .hline {
+  border: #80808036 solid 1px;
+  margin-bottom: 6px;
+ }
+
+ .ndDiv{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ }
+ 
+ .rdDiv{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ }
+
+ .jumiaRightNav p{
+  font-size: 22px;
+ }
+
+ .jumiaRightNav h5{
+  font-weight: 400;
+  font-size: 16px;
+ }
+
+ .jumiaRightNav .account{
+  padding-left: 5px;
+  padding-right: 5px;
+ }
+
+ .jumiaRightNav .dropdown{
+  font-size: 11px;
+ }
+
+ /* .jumiaRightNav :hover{
+  color: orange;
+  cursor: pointer;
+ } */
+
+ .dtDiv:hover {
+  color: orange;
+  cursor: pointer;
+ }
+
+ .ndDiv:hover {
+  color: orange;
+  cursor: pointer;
+ }
+
+ .rdDiv:hover, .rdDiv a:hover {
+  color: orange;
+  cursor: pointer;
+ }
+
+ a{
+  text-decoration: none;
+  color: black;
+ }
+
+ /* ===========SECTION ONE=========== */
+  
+ .generaljSec1{
+  background-color: skyblue;
+  padding: 22px 7%;
+  padding-top: 120px;
+  height: 88vh;
+ }
+ 
+ 
+ .jDivwraper{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    gap: 12px;
+    align-items: center;
+    
+  }
+
+  .jDiv1 p{
+    font-size: 13px;
+    font-weight: 300;
+    word-spacing: 4px;
+    padding-bottom: 13px;
+  }
+
+  .jDiv1{
+    background-color: white;
+    padding: 7px 0 0 7px;
+    height: 390px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 205px;
+    
+    
+  }
+
+ /* ============js swiper========== */
+ .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 
+.swiper{
+  height: 350px;
+}  */
+
+.mySwiper1 .swiper-wrapper{
+  height: 100%;
+  border-radius: 5px;
+}
+
+
+/* ============Div 3========== */
+.jDiv3{
+  display: grid;
+  align-content: center;
+  gap: 10px;
+  height: 360px;
+}
+
+/* =======section1 div 3a========= */
+.section1DivA{
+  background-color: white;
+  border-radius: 5px;
+  height: 188px;
+}
+
+.section1DivA .c{
+  display: flex;
+  align-items: center;
+  padding: 3px 15px;
+  margin-top: 4px;
+  
+}
+.section1DivA p {
+  padding-top: 5px;
+  /* border-radius: 50%; */
+  font-size: 30px;
+  margin-right: 10px;
+  color: rgb(255, 189, 68);
+}
+
+.section1DivA h4{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.section1DivB img{
+  border-radius: 5px;
+  height: 188px;
+}
+
+.section1DivB{
+  height: 188px;
+} 
+
+/* =================SECTION TWO============== */
+.sectionTwo{
+  padding: 22px 7%;
+  height: 80vh;
+  background-color: rgb(76, 157, 250);
+}
+
+.sectionTwoWrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 9px;
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+
+.sectionTwoWrapper div img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sectionTwoWrapper p{
+  text-align: center;
+}
+
+.section2Divs:hover{
+  background-color: white;
+  transition: 0.3s .2s ease-in-out;
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+/* ==================SECTION THREE============= */
+.sectionThree{
+  padding: 22px 7%;
+  background-color: skyblue;
+  padding-bottom: 13.5px;
+}
+.section3Wrapper{
+  display: flex;
+  gap: 75%;
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 5px 5px 0 0;
+}
+.leftDiv {
+  padding-left: 15px;
+}
+
+.leftDiv h3{
+  font-size: 20px;
+}
+
+.rightDiv h3{
+color: #f68b1e;
+font-weight: 400;
+}
+
+
+/* =======SECTION 3 SWIPER JS========= */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper3{
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+        /* =======my css======= */
+
+.mySwiper3 .swiper-slide:hover{
+  background-color: white;
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ .mySwiper3 .swiper-wrapper{
+  background-color: white;
+} 
+
+.mySwiper3 .swiper-slide img {
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ }
+/* ========= next button========= */
+ .swiper .swiper-button-next{
+  border-radius: 50%;
+  font-size: smaller;
+  color: white;
+  width: 49px;
+  height: 49px;
+}
+
+.swiper-button-next:hover{
+  background-color: gray;
+}
+ 
+/* =======prev. button========= */
+.swiper .swiper-button-prev{
+  border-radius: 50%;
+  font-size: smaller;
+  color: white;
+  width: 49px;
+  height: 49px;
+}
+
+.swiper .swiper-button-prev:hover{
+  background-color: gray;
+}
+
+.mySwiper3 .swiper-slide p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.mySwiper3 .swiper-slide h3{
+  font-weight: 450;
+  font-size: 17px;
+}
+
+.mySwiper3 .swiper-slide h5{
+  font-weight: 340;
+  font-size: 13px;
+  text-decoration: line-through;
+  color: rgb(128, 128, 128);
+}
+
+.mySwiper3 .swiper-slide{
+  position: relative;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.mySwiper3 .swiper-slide h2{
+position: absolute;
+top: 0;
+right: 0;
+background-color: #ffe2c6;
+color: #f68b1e;
+font-weight: 350;
+font-size: 15px;
+padding: 1px;
+border-radius: 2px;
+margin: 12px;
+border: none;
+}
+
+/* ==============SECTION FOUR============= */
+
+.sectionFour{
+  background-image: url("/SELFKUDAIMGS/section4background.jpg");
+  padding: 22px 7%;
+  padding-bottom: 8px;
+  background-size: contain;
+}
+
+.sectionFourWrapper{
+  padding: 15px 5px ;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 29.5%;
+  background-color: red;
+  border-radius: 5px 5px 0 0;
+}
+
+.sectionFourWrapper h2{
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.sectionFourMiddleDiv h2{
+  padding-left: 20px;
+}
+.sectionFourRightDiv .h2Fourth {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+
+/* =======SECTION 4 SWIPER JS========= */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper4{
+  margin-bottom: 5px;
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.fourthSwiper{
+  height: 100px;
+}
+ /* =======my css======= */
+
+ .mySwiper4 .swiper-slide:hover{
+  background-color: white;
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/* 
+ .mySwiper4 .swiper-wrapper{
+  background-color: white;
+}  */
+
+.mySwiper4 .swiper-slide img {
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ }
+
+ .mySwiper4 .swiper-slide p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.mySwiper4 .swiper-slide h3{
+  font-weight: 450;
+  font-size: 17px;
+}
+
+.mySwiper4 .swiper-slide h5{
+  font-weight: 340;
+  font-size: 13px;
+  text-decoration: line-through;
+  color: rgb(128, 128, 128);
+}
+
+.mySwiper4 .swiper-slide{
+  position: relative;
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+ 
+.mySwiper4 .swiper-slide{
+  position: relative;
+  text-align: left;
+}
+
+.mySwiper4 .swiper-slide h2{
+position: absolute;
+top: 0;
+right: 0;
+background-color: #ffe2c6;
+color: #f68b1e;
+font-weight: 350;
+font-size: 15px;
+padding: 1px;
+border-radius: 2px;
+margin: 12px;
+border: none;
+}
+
+.mySwiper4 .swiper-slide h6{
+  font-weight: 400;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerA{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarA{
+  width: 100%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+
+.mySwiper4 .swiper-slide .progressBarContainerB{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarB{
+  width: 20%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+
+.mySwiper4 .swiper-slide .progressBarContainerc{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarc{
+  width: 80%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerD{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarD{
+  width: 60%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerE{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarE{
+  width: 85%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerF{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarF{
+  width: 75%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerG{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarG{
+  width: 19%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerH{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarH{
+  width: 49%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerI{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarI{
+  width: 59%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerJ{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarJ{
+  width: 2%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerK{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarK{
+  width: 32%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerL{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarL{
+  width: 99%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerM{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarM{
+  width: 9%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerN{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarN{
+  width: 50%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+.mySwiper4 .swiper-slide .progressBarContainerO{
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.mySwiper4 .swiper-slide .progressBarO{
+  width: 25%;
+  height: 10px;
+  background-color: orange;
+  border-radius: 5px;
+} 
+
+/* ===========SECTION FIVE-================== */
+
+.sectionFive{
+  padding: 22px 7%;
+  background-color: purple;
+  height: 50vh;
+}
+
+.sectionFiveWrapper{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+.sectionFiveWrapper :hover{
+  /* background-color: white; */
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.01);
+  cursor: pointer;
+
+}
+ 
+.sectionFiveWrapper img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sec5LeftDiv{
+  width: 110%;
+}
+
+.sec5RightDiv{
+  width: 110%;
+}
+
+/* ================SECTION SIX============== */
+
+.sectionSix{
+  padding: 22px 7%;
+  background-image: url(/kudaprojectIMAGES/kyiv-ukraine-march-30-2022-jumia-online-shopping-logo-on-the-screen-2J5PK0J.jpg);
+  background-size: contain;
+  padding-top: 18px;
+  padding-bottom: 6px;
+}
+
+.section6Wrapper{
+  display: flex;
+  align-items: center;
+  background-color: #FFBA00;
+  gap: 75%;
+  padding: 10px 5px;
+  border-radius: 5px 5px 0 0;
+}
+
+
+.section6LeftDiv {
+  padding-left: 15px;
+}
+
+.section6LeftDiv h3{
+  font-weight: 420;
+  font-size: 20px;
+}
+
+
+
+.section6RightDiv h3{
+  font-weight: 420;
+  font-size: 15px;
+}
+
+/* =======SECTION 6 SWIPER JS========= */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper6{
+  background-color: white;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper6{
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 10px;
+}
+
+
+.sixthSipper{
+  height: 100px;
+}
+
+        /* =======my css======= */
+
+.mySwiper6 .swiper-slide:hover{
+  background-color: white;
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ .mySwiper6 .swiper-wrapper{
+  background-color: white;
+}
+
+.mySwiper6 .swiper-slide{
+  position: relative;
+  margin-top: 10px;
+  /* width: 150%; */
+  /* height: 80%; */
+  gap: 5px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+ }
+
+ .mySwiper6 .swiper-slide img {
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ }
+.mySwiper6 .swiper-slide p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.mySwiper6 .swiper-slide h3{
+  font-weight: 450;
+  font-size: 15px;
+}
+
+.mySwiper6 .swiper-slide h5{
+  font-weight: 340;
+  font-size: 13px;
+  text-decoration: line-through;
+  color: rgb(128, 128, 128);
+} 
+ 
+.mySwiper6 .swiper-slide h2{
+position: absolute;
+top: 0;
+right: 0;
+background-color: #ffe2c6;
+color: #f68b1e;
+font-weight: 350;
+font-size: 15px;
+padding: 1px;
+border-radius: 2px;
+margin: 12px;
+border: none;
+} 
+
+/* ================SECTION SEVEN======================= */
+.sectionSeven{
+  background-image: url(/jumiadprojectimgs/Desktop_Homepage_Slider__712x384.jpg);
+  padding: 22px 7%;
+  background-size: contain;
+  height: 59vh;
+  padding-top: 19px;
+  padding-bottom: 30px;
+}
+
+.sec7Wraper
+{
+  background-color: #FFBA00;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+
+.sec7Wraper h1{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.sec7ImgSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  gap: 9px;
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.sec7ImgSection div img{
+  width: 99%;
+  border-radius: 7px;
+}
+
+.sec7ImgSection h2{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 350;
+}
+
+.sec7ImgSection :hover{
+  background-color: white;
+  transition: 0.3s .2s ease-in;
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* ===========SECTION EIGHT========== */
+.sectionEight{
+   padding: 22px 7%;
+ background-color: #643484;
+ background-size: contain;
+  background-size: 55%;
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+
+.section8Wrapper{
+  display: flex;
+  align-items: center;
+  background-color: #FFBA00;
+  gap: 71%;
+  padding: 10px 5px;
+  border-radius: 5px 5px 0 0;
+}
+
+
+.section8LeftDiv {
+  padding-left: 15px;
+}
+
+.section8LeftDiv h3{
+  font-weight: 420;
+  font-size: 20px;
+}
+
+
+
+.section8RightDiv h3{
+  font-weight: 420;
+  font-size: 15px;
+}
+
+
+/* =======SECTION 8 SWIPER JS========= */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper8{
+  background-color: white;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper8{
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 10px;
+}
+
+.eighthswiper{
+  height: 100px;
+}
+
+
+        /* =======my css sec.8======= */
+
+.mySwiper8 .swiper-slide:hover{
+  background-color: white;
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ .mySwiper8 .swiper-wrapper{
+  background-color: white;
+}
+
+.mySwiper8 .swiper-slide{
+  position: relative;
+  margin-top: 10px;
+  /* width: 150%; */
+  /* height: 80%; */
+  gap: 5px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+ }
+
+ .mySwiper8 .swiper-slide img {
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ }
+.mySwiper8 .swiper-slide p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.mySwiper8 .swiper-slide h3{
+  font-weight: 450;
+  font-size: 15px;
+}
+
+.mySwiper8 .swiper-slide h5{
+  font-weight: 340;
+  font-size: 13px;
+  text-decoration: line-through;
+  color: rgb(128, 128, 128);
+} 
+ 
+.mySwiper8 .swiper-slide h2{
+position: absolute;
+top: 0;
+right: 0;
+background-color: #ffe2c6;
+color: #f68b1e;
+font-weight: 350;
+font-size: 15px;
+padding: 1px;
+border-radius: 2px;
+margin: 12px;
+border: none;
+} 
+
+/* ===========SECTION NINE=============== */
+
+.sectionNine{
+  background-image: url(/jumiadprojectimgs/11111.jpg);
+  padding: 22px 7%;
+  background-size: contain;
+  height: 58vh;
+  padding-top: 11px;
+  /* padding-bottom: 30px; */
+}
+
+.sec9Wraper
+{
+  background-color: #FFBA00;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+
+.sec9Wraper H1{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.sec9ImgSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  gap: 9px;
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.sec9ImgSection div img{
+  width: 99%;
+  border-radius: 7px;
+}
+
+.sec9ImgSection h2{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 350;
+}
+
+.sec9ImgSection :hover{
+  background-color: white;
+  transition: 0.3s .2s ease-in;
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* =============SECTION TEN================ */
+.sectionTen{
+  padding: 22px 7%;
+background-image: url(/jumia10imgs/sec10bgimg.jpg);
+background-size: contain;
+ background-size: 55%;
+ /* padding-top: 20px; */
+ padding-bottom: 2px;
+}
+
+
+.section10Wrapper{
+ display: flex;
+ align-items: center;
+ background-color: #FFBA00;
+ gap: 76%;
+ padding: 10px 5px;
+ border-radius: 5px 5px 0 0;
+}
+
+
+.section10LeftDiv {
+ padding-left: 15px;
+}
+
+.section10LeftDiv h3{
+ font-weight: 420;
+ font-size: 20px;
+}
+
+
+
+.section10RightDiv h3{
+ font-weight: 420;
+ font-size: 15px;
+}
+
+
+/* =======SECTION 10 SWIPER JS========= */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper10{
+  background-color: white;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper10{
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 10px;
+}
+
+.tenthswiper{
+  height: 100px;
+}
+
+
+        /* =======my css sec.10======= */
+
+.mySwiper10 .swiper-slide:hover{
+  background-color: white;
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ .mySwiper10 .swiper-wrapper{
+  background-color: white;
+}
+
+.mySwiper10 .swiper-slide{
+  position: relative;
+  margin-top: 10px;
+  /* width: 150%; */
+  /* height: 80%; */
+  gap: 5px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+ }
+
+ .mySwiper10 .swiper-slide img {
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ }
+.mySwiper10
+ .swiper-slide p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.mySwiper10 .swiper-slide h3{
+  font-weight: 450;
+  font-size: 15px;
+}
+
+.mySwiper10 .swiper-slide h5{
+  font-weight: 340;
+  font-size: 13px;
+  text-decoration: line-through;
+  color: rgb(128, 128, 128);
+} 
+ 
+.mySwiper10 .swiper-slide h2{
+position: absolute;
+top: 0;
+right: 0;
+background-color: #ffe2c6;
+color: #f68b1e;
+font-weight: 350;
+font-size: 15px;
+padding: 1px;
+border-radius: 2px;
+margin: 12px;
+border: none;
+} 
+
+/* =============SECTION ELEVEN============ */
+
+.sectionEleven{
+  padding: 22px 7%;
+  background-color: #0099FF;
+  height: 60vh;
+  /* padding-top: 19px; */
+  /* padding-bottom: 30px; */
+}
+
+.sec11Wraper
+{
+  background-color: #FFBA00;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+
+.sec11Wraper h1{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.sec11ImgSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  gap: 9px;
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.sec11ImgSection div img{
+  width: 99%;
+  border-radius: 7px;
+}
+
+.sec11ImgSection h2{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 350;
+}
+
+.sec11ImgSection :hover{
+  background-color: white;
+  transition: 0.3s .2s ease-in;
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/* =============SECTION TWELVE================ */
+.sectionTwelve{
+  padding: 22px 7%;
+background-image: url(/jumia10imgs/Jumia.jpg);
+background-size: contain;
+ background-size: 55%;
+ padding-top: 16px;
+ padding-bottom: 2px;
+}
+
+
+.section12Wrapper{
+ display: flex;
+ align-items: center;
+ background-color: #FFBA00;
+ gap: 72%;
+ padding: 10px 5px;
+ border-radius: 5px 5px 0 0;
+}
+
+
+.section12LeftDiv {
+ padding-left: 15px;
+}
+
+.section12LeftDiv h3{
+ font-weight: 420;
+ font-size: 18px;
+}
+
+
+
+.section12RightDiv h3{
+ font-weight: 390;
+ font-size: 13px;
+}
+
+
+/* =======SECTION 12 SWIPER JS========= */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper12{
+  background-color: white;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper12{
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 10px;
+}
+
+.twelvethswiper{
+  height: 100px;
+}
+
+
+        /* =======my css sec.12======= */
+
+.mySwiper12 .swiper-slide:hover{
+  background-color: white;
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ .mySwiper12 .swiper-wrapper{
+  background-color: white;
+}
+
+.mySwiper12 .swiper-slide{
+  position: relative;
+  margin-top: 10px;
+  /* width: 150%; */
+  /* height: 80%; */
+  gap: 5px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+ }
+
+ .mySwiper12 .swiper-slide img {
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ }
+.mySwiper12
+ .swiper-slide p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.mySwiper12 .swiper-slide h3{
+  font-weight: 450;
+  font-size: 15px;
+}
+
+.mySwiper12 .swiper-slide h5{
+  font-weight: 340;
+  font-size: 13px;
+  text-decoration: line-through;
+  color: rgb(128, 128, 128);
+} 
+ 
+.mySwiper12 .swiper-slide h2{
+position: absolute;
+top: 0;
+right: 0;
+background-color: #ffe2c6;
+color: #f68b1e;
+font-weight: 350;
+font-size: 15px;
+padding: 1px;
+border-radius: 2px;
+margin: 12px;
+border: none;
+} 
+
+
+
+/* =============SECTION THIRTEEN============ */
+
+.secThirteen{
+  background-color: whitesmoke;
+  padding: 22px 7%;
+  height: 108vh;
+  padding-top: 19px;
+  /* padding-bottom: 30px; */
+}
+
+.sec13Wraper
+{
+  background-color: #FFBA00;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+
+.sec13Wraper h1{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.sec13ImgSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  gap: 5px;
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.sec13ImgSection div img{
+  width: 99%;
+  border-radius: 5px;
+}
+
+.sec13ImgSection h2{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 350;
+}
+
+.sec13ImgSection :hover{
+  background-color: white;
+  transition: 0.3s .2s ease-in;
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/* ===========SECTION 14-================== */
+
+.sec4Teen{
+  padding: 22px 7%;
+  background-color: #0099FF;
+  height: 47vh;
+}
+
+.section14Wrapper{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+.section14Wrapper :hover{
+  /* background-color: white; */
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.01);
+  cursor: pointer;
+
+}
+ 
+.section14Wrapper img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sec14LeftDiv{
+  width: 50%;
+}
+
+.sec14RightDiv img{
+  width: 100%;
+}
+ 
+.sec14RightDiv{
+  width: 50%;
+}
+
+
+/* ==========SECTION FIFTEEN============= */
+
+.secFifteen{
+  padding: 22px 7%;
+  background-color: #0099FF;
+  height: 47vh;
+}
+
+.sec15OnlyDiv{
+  background-color: white;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+.sec15OnlyDiv :hover{
+  /* background-color: white; */
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.01);
+  cursor: pointer;
+
+}
+ 
+.sec15OnlyDiv img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+/* ===========SECTION 16============= */
+
+.sec6Teen{
+  padding: 22px 7%;
+  background-color: #0099FF;
+  height: 50vh;
+}
+
+.section16Wrapper{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+.section16Wrapper :hover{
+  /* background-color: white; */
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.01);
+  cursor: pointer;
+
+}
+ 
+.section16Wrapper img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sec16LeftDiv{
+  width: 50%;
+}
+
+.sec16RightDiv img{
+  width: 100%;
+}
+ 
+.sec16RightDiv{
+  width: 50%;
+}
+
+
+/* =============SECTION seventeen================ */
+.sec7Teen{
+padding: 22px 7%;
+background-image: url(/jumia10imgs/sec18bg.jpg);
+background-size: cover;
+/* padding-top: 20px; */
+padding-bottom: 11px;
+}
+
+
+.section17Wrapper{
+ display: flex;
+ align-items: center;
+ background-color: #FFBA00;
+ gap: 70%;
+ padding: 10px 5px;
+ border-radius: 5px 5px 0 0;
+}
+
+
+.section17LeftDiv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ padding-left: 15px;
+}
+
+.section17LeftDiv h3{
+ font-weight: 420;
+ font-size: 20px;
+}
+
+
+
+.section17RightDiv h3{
+ font-weight: 420;
+ font-size: 15px;
+}
+
+
+
+
+/* =======SECTION 17 SWIPER JS========= */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper17{
+  background-color: white;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper17{
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  /* margin-bottom: 4px; */
+}
+
+.seventhswiper{
+  height: 100px;
+}
+
+
+        /* =======my css sec.17======= */
+
+.mySwiper17 .swiper-slide:hover{
+  background-color: white;
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ .mySwiper17 .swiper-wrapper{
+  background-color: white;
+}
+
+.mySwiper17 .swiper-slide{
+  position: relative;
+  margin-top: 10px;
+  /* width: 150%; */
+  /* height: 80%; */
+  gap: 5px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+ }
+
+ .mySwiper17 .swiper-slide img {
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ }
+.mySwiper17 .swiper-slide p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.mySwiper17 .swiper-slide h3{
+  font-weight: 450;
+  font-size: 15px;
+}
+
+.mySwiper17 .swiper-slide h5{
+  font-weight: 340;
+  font-size: 13px;
+  text-decoration: line-through;
+  color: rgb(128, 128, 128);
+} 
+ 
+.mySwiper17 .swiper-slide h2{
+position: absolute;
+top: 0;
+right: 0;
+background-color: #ffe2c6;
+color: #f68b1e;
+font-weight: 350;
+font-size: 15px;
+padding: 1px;
+border-radius: 2px;
+margin: 12px;
+border: none;
+} 
+
+/* =============SECTION 18=================  */
+
+.sec8Teen{
+  background-color: skyblue;
+  padding: 22px 7%;
+  height: 79.5vh;
+  /* padding-top: 19px; */
+  /* padding-bottom: 30px; */
+}
+
+.sec18Wraper
+{
+  background-color: #276076;
+  color: #FFFFFF;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+
+.sec18Wraper h1{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.sec18ImgSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  gap: 5px;
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.sec18ImgSection div img{
+  width: 99%;
+  border-radius: 5px;
+}
+
+.sec18ImgSection h2{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 350;
+}
+
+.sec18ImgSection :hover{
+  background-color: white;
+  transition: 0.3s .2s ease-in;
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/* =============SECTION NINETEEN================ */
+.sec9Teen{
+padding: 22px 7%;
+background-color: #4bd2ff;
+/* padding-top: 20px; */
+padding-bottom: 14px;
+}
+
+
+.section19Wrapper{
+ display: flex;
+ align-items: center;
+ background-color: #276076;
+ gap: 69%;
+ padding: 10px 5px;
+ border-radius: 5px 5px 0 0;
+}
+
+
+.section19LeftDiv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ padding-left: 15px;
+}
+
+.section19LeftDiv h3{
+ font-weight: 420;
+ font-size: 20px;
+ color: white;
+}
+
+
+
+.section19RightDiv h3{
+ font-weight: 420;
+ font-size: 15px;
+ color: white;
+}
+
+
+
+/* =======SECTION 19 SWIPER JS========= */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper19{
+  background-color: white;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper19{
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  /* margin-bottom: 4px; */
+}
+
+.nineteenthswiper{
+  height: 100px;
+}
+
+
+        /* =======my css sec.19======= */
+
+.mySwiper19 .swiper-slide:hover{
+  background-color: white;
+  transition: 0.5s .1s ease-in-out;
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ .mySwiper19 .swiper-wrapper{
+  background-color: white;
+}
+
+.mySwiper19 .swiper-slide{
+  position: relative;
+  margin-top: 10px;
+  /* width: 150%; */
+  /* height: 80%; */
+  gap: 5px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+ }
+
+ .mySwiper19 .swiper-slide img {
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ }
+.mySwiper19 .swiper-slide p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.mySwiper19 .swiper-slide h3{
+  font-weight: 450;
+  font-size: 15px;
+}
+
+.mySwiper19 .swiper-slide h5{
+  font-weight: 340;
+  font-size: 13px;
+  text-decoration: line-through;
+  color: rgb(128, 128, 128);
+} 
+ 
+.mySwiper19 .swiper-slide h2{
+position: absolute;
+top: 0;
+right: 0;
+background-color: #ffe2c6;
+color: #f68b1e;
+font-weight: 350;
+font-size: 15px;
+padding: 1px;
+border-radius: 2px;
+margin: 12px;
+border: none;
+} 
+
+
+
+/* =============SECTION TWENTY================ */
+.sec20Ty{
+  padding: 22px 7%;
+  background-color: skyblue;
+  /* padding-top: 20px; */
+  padding-bottom: 12px;
+  }
+  
+  
+  .section20Wrapper{
+   display: flex;
+   align-items: center;
+   background-color: #276076;
+   gap: 66%;
+   padding: 10px 5px;
+   border-radius: 5px 5px 0 0;
+  }
+  
+  
+  .section20LeftDiv {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   padding-left: 15px;
+  }
+  
+  .section20LeftDiv h3{
+   font-weight: 420;
+   font-size: 20px;
+   color: white;
+  }
+  
+  
+  
+  .section20RightDiv h3{
+   font-weight: 420;
+   font-size: 15px;
+   color: white;
+  }
+  
+  
+  
+  /* =======SECTION 20 SWIPER JS========= */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mySwiper20{
+    background-color: white;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .mySwiper20{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    /* margin-bottom: 4px; */
+  }
+  
+  .twentyethswiper{
+    height: 100px;
+  }
+  
+  
+          /* =======my css sec.20======= */
+  
+  .mySwiper20 .swiper-slide:hover{
+    background-color: white;
+    transition: 0.5s .1s ease-in-out;
+    transform: scale(1.04);
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+   .mySwiper20 .swiper-wrapper{
+    background-color: white;
+  }
+  
+  .mySwiper20 .swiper-slide{
+    position: relative;
+    margin-top: 10px;
+    /* width: 150%; */
+    /* height: 80%; */
+    gap: 5px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+   }
+  
+   .mySwiper20 .swiper-slide img {
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   }
+  .mySwiper20 .swiper-slide p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .mySwiper20 .swiper-slide h3{
+    font-weight: 450;
+    font-size: 15px;
+  }
+  
+  .mySwiper20 .swiper-slide h5{
+    font-weight: 340;
+    font-size: 13px;
+    text-decoration: line-through;
+    color: rgb(128, 128, 128);
+  } 
+   
+  .mySwiper20 .swiper-slide h2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffe2c6;
+  color: #f68b1e;
+  font-weight: 350;
+  font-size: 15px;
+  padding: 1px;
+  border-radius: 2px;
+  margin: 12px;
+  border: none;
+  } 
+  
+  
+  
+/* ================SECTION 21======================= */
+.sec21One{
+  background-color: #0099FF;
+  padding: 22px 7%;
+  height: 64vh;
+  /* padding-top: 19px; */
+  /* padding-bottom: 30px; */
+}
+
+.sec21Wraper
+{
+  background-color: #FFBA00;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+
+.sec21Wraper h1{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.sec21ImgSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  gap: 9px;
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.sec21ImgSection div img{
+  width: 99%;
+  border-radius: 7px;
+}
+
+.sec21ImgSection h2{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.sec21ImgSection :hover{
+  background-color: white;
+  transition: 0.3s .2s ease-in;
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+/* =============SECTION TWENTY-TWO================ */
+.sec20Two{
+  padding: 22px 7%;
+  background-color: skyblue;
+  /* padding-top: 20px; */
+  padding-bottom: 13px;
+  }
+  
+  
+  .section22Wrapper{
+   display: flex;
+   align-items: center;
+   background-color: #FFBA00;
+   gap: 73%;
+   padding: 10px 5px;
+   border-radius: 5px 5px 0 0;
+  }
+  
+  
+  .section22LeftDiv {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   padding-left: 15px;
+  }
+  
+  .section22LeftDiv h3{
+   font-weight: 420;
+   font-size: 20px;
+  }
+  
+  
+  
+  .section22RightDiv h3{
+   font-weight: 420;
+   font-size: 15px;
+  }
+  
+  
+  
+  /* =======SECTION 22 SWIPER JS========= */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mySwiper22{
+    background-color: white;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .mySwiper22{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    /* margin-bottom: 4px; */
+  }
+  
+  .twenty2Ndswiper{
+    height: 100px;
+  }
+  
+  
+          /* =======my css sec.22======= */
+  
+  .mySwiper22 .swiper-slide:hover{
+    background-color: white;
+    transition: 0.5s .1s ease-in-out;
+    transform: scale(1.04);
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+   .mySwiper22 .swiper-wrapper{
+    background-color: white;
+  }
+  
+  .mySwiper22 .swiper-slide{
+    position: relative;
+    margin-top: 10px;
+    /* width: 150%; */
+    /* height: 80%; */
+    gap: 5px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+   }
+  
+   .mySwiper22 .swiper-slide img {
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   }
+  .mySwiper22 .swiper-slide p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .mySwiper22 .swiper-slide h3{
+    font-weight: 450;
+    font-size: 15px;
+  }
+  
+  .mySwiper22 .swiper-slide h5{
+    font-weight: 340;
+    font-size: 13px;
+    text-decoration: line-through;
+    color: rgb(128, 128, 128);
+  } 
+   
+  .mySwiper22 .swiper-slide h2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffe2c6;
+  color: #f68b1e;
+  font-weight: 350;
+  font-size: 15px;
+  padding: 1px;
+  border-radius: 2px;
+  margin: 12px;
+  border: none;
+  } 
+  
+  
+  
+/* ================SECTION 23======================= */
+.sec20Three{
+  background-color: #4bd2ff;
+  padding: 22px 7%;
+  height: 60vh;
+  padding-top: 19px;
+  padding-bottom: 30px;
+}
+
+.sec23Wraper{
+  background-color: #FFBA00;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+
+.sec23Wraper h1{
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.sec23ImgSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  gap: 9px;
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.sec23ImgSection div img{
+  width: 99%;
+  border-radius: 7px;
+}
+
+.sec23ImgSection h2{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.sec23ImgSection :hover{
+  background-color: white;
+  transition: 0.3s .2s ease-in;
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* ================SECTION 24======================= */
+.sec20Four{
+  padding: 22px 7%;
+  background-color: #0099FF;
+  /* padding-top: 20px; */
+  padding-bottom: 12px;
+  }
+  
+  
+  .section24Wrapper{
+   display: flex;
+   align-items: center;
+   background-color: #FFBA00;
+   gap: 72%;
+   padding: 10px 5px;
+   border-radius: 5px 5px 0 0;
+  }
+  
+  
+  .section24LeftDiv {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   padding-left: 15px;
+  }
+  
+  .section24LeftDiv h3{
+   font-weight: 420;
+   font-size: 20px;
+  }
+  
+  
+  
+  .section24RightDiv h3{
+   font-weight: 420;
+   font-size: 15px;
+  }
+  
+  
+  
+  /* =======SECTION 24 SWIPER JS========= */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mySwiper22{
+    background-color: white;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .mySwiper24{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    /* margin-bottom: 4px; */
+  }
+  
+  .twentyFourSwiper{
+    height: 100px;
+  }
+  
+  
+          /* =======my css sec.24======= */
+  
+  .mySwiper24 .swiper-slide:hover{
+    background-color: white;
+    transition: 0.5s .1s ease-in-out;
+    transform: scale(1.04);
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+   .mySwiper24 .swiper-wrapper{
+    background-color: white;
+  }
+  
+  .mySwiper24 .swiper-slide{
+    position: relative;
+    margin-top: 10px;
+    /* width: 150%; */
+    /* height: 80%; */
+    gap: 5px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+   }
+  
+   .mySwiper24 .swiper-slide img {
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   }
+  .mySwiper24 .swiper-slide p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .mySwiper24 .swiper-slide h3{
+    font-weight: 450;
+    font-size: 15px;
+  }
+  
+  .mySwiper24 .swiper-slide h5{
+    font-weight: 340;
+    font-size: 13px;
+    text-decoration: line-through;
+    color: rgb(128, 128, 128);
+  } 
+   
+  .mySwiper24 .swiper-slide h2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffe2c6;
+  color: #f68b1e;
+  font-weight: 350;
+  font-size: 15px;
+  padding: 1px;
+  border-radius: 2px;
+  margin: 12px;
+  border: none;
+  } 
+
+
+/* ================SECTION 25======================= */
+.sec20Five{
+  background-color: #4bd2ff;
+  padding: 22px 7%;
+  height: 60vh;
+  /* padding-top: 19px; */
+  /* padding-bottom: 30px; */
+}
+
+.sec25Wraper{
+  background-color: #FFBA00;
+  gap: 10px;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+
+.sec25Wraper h1{
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.sec25ImgSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  gap: 9px;
+  background-color: white;
+  padding: 7px 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.sec25ImgSection div img{
+  width: 99%;
+  border-radius: 5px;
+}
+
+.sec25ImgSection h2{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.sec25ImgSection :hover{
+  background-color: white;
+  transition: 0.3s .2s ease-in;
+  transform: scale(1.01);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/* ================SECTION 26======================= */
+.sec20Six{
+  padding: 22px 7%;
+  background-color: #0099FF;
+  /* padding-top: 20px; */
+  padding-bottom: 12px;
+  }
+  
+  
+  .section26Wrapper{
+   display: flex;
+   align-items: center;
+   background-color: #FFBA00;
+   gap: 74%;
+   padding: 10px 5px;
+   border-radius: 5px 5px 0 0;
+  }
+  
+  
+  .section26LeftDiv {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   padding-left: 15px;
+  }
+  
+  .section26LeftDiv h3{
+   font-weight: 420;
+   font-size: 20px;
+  }
+  
+  
+  
+  .section26RightDiv h3{
+   font-weight: 420;
+   font-size: 15px;
+  }
+  
+  
+  
+  /* =======SECTION 26 SWIPER JS========= */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mySwiper26{
+    background-color: white;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .mySwiper26{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    /* margin-bottom: 4px; */
+  }
+  
+  .twentySixSwiper{
+    height: 100px;
+  }
+  
+  
+          /* =======my css sec.26======= */
+  
+  .mySwiper26 .swiper-slide:hover{
+    background-color: white;
+    transition: 0.5s .1s ease-in-out;
+    transform: scale(1.04);
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+   .mySwiper26 .swiper-wrapper{
+    background-color: white;
+  }
+  
+  .mySwiper26 .swiper-slide{
+    position: relative;
+    margin-top: 10px;
+    /* width: 150%; */
+    /* height: 80%; */
+    gap: 5px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+   }
+  
+   .mySwiper26 .swiper-slide img {
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   }
+  .mySwiper26 .swiper-slide p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .mySwiper26 .swiper-slide h3{
+    font-weight: 450;
+    font-size: 15px;
+  }
+  
+  .mySwiper26 .swiper-slide h5{
+    font-weight: 340;
+    font-size: 13px;
+    text-decoration: line-through;
+    color: rgb(128, 128, 128);
+  } 
+   
+  .mySwiper26 .swiper-slide h2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffe2c6;
+  color: #f68b1e;
+  font-weight: 350;
+  font-size: 15px;
+  padding: 1px;
+  border-radius: 2px;
+  margin: 12px;
+  border: none;
+  } 
+
+/* ================section 27================ */
+  .sec20Seven{
+  background-color: #4bd2ff;
+  padding: 22px 7%;
+  /* height: 370vh; */
+  /* padding-top: 19px; */
+  padding-bottom: 5%;
+}
+
+.sec27Wrapper{
+  background-color: white;
+  padding: 10px 15px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border-radius: 5px;
+  /* text-align: center; */
+}
+
+.sec27Wrapper h1{
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.sec27Wrapper p{
+  font-size: 12.5px;
+  margin-bottom: 10px;
+}
+
+.sec27Wrapper h3{
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* ==================FOOTER=================== */
+.footer{
+  background-color: #313133;
+  padding: 22px 7%;
+  color: white;
+}
+
+.footerWrapper1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8.5%;
+}
+
+.footerWrapper1 .leftFooter img{
+  width: 60%;
+}
+
+.footerWrapper1 .rightFooter img{
+  width: 15%;
+  height: 15%;
+  border-radius: 5px;
+}
+
+.middleFooter .footerForm .inputFooter{
+  width: 280px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.middleFooter .footerForm i{
+  position: absolute;
+  display: flex;
+  padding-top: 11px;
+  font-size: 20px;
+  color: #313133;
+}
+
+.footerForm .footerButton{
+  background-color: #313133;
+  border: 1px solid gray;
+  border-color: white;
+  font-weight: 400;
+}
+
+
+.footerForm .footerButton:hover{
+  border-color: #f68b1e;
+  color: #f68b1e;
+  
+}
+
+.middleFooter{
+  /* margin-right: 20%; */
+  width: fit-content;
+
+}
+
+
+.middleFooter h2{
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.middleFooter .stP{
+  margin-bottom: 15px;
+  font-size: 12px;
+
+}
+
+.middleFooter div .ndP{
+ margin-bottom: 20px;
+ font-size: 10.5px;
+ padding-left: 20px;
+
+}
+/*  
+.checkBox{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.checkBox .cB{
+  position: absolute;
+  top: 0;
+  margin: 5px;
+  left: -5px;
+  margin-top: 10px;
+}
+
+.dPs h6{
+  color: #f68b1e;
+  font-weight: 350;
+  text-decoration: underline;
+}
+
+.dps h6:hover{
+  cursor: pointer;
+} */
+
+
+
+.check-label {
+  color: #a3a3a6;
+  margin-right: 4px;
+  min-height: 24px;
+  position: relative;
+  line-height: 1.4;
+  font-size: 11px;
+}
+
+  
+.checkbox-container {
+  margin-top: 30px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+
+/* Hide the default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkmark */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 2px solid #a3a3a6;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #f68b1e;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.accept {
+  color: #f68b1e;
+  font-size: 11px;
+}
+/* 
+.checkmark{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 0;
+  left: -7px;
+  top: -7px;
+} */
+
+/* .checkmark :hover{
+  background-color: whitesmoke;
+  cursor: pointer; 
+} */
+
+
+.dImg{
+  margin-bottom: 10px;
+}
+
+.rightFooter .dImg{
+  /* margin-right: 30%; */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* 
+ .divOneSt{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+} */
+
+.rightFooter h2{
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 8px;
+}
+
+.rightFooter p{
+  font-size: 10px;
+}
+
+.rightFooter{
+  width: 100%;
+  padding-left: 20px;
+}
+
+.btnDiv{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btnDiv button{
+  background-color: #313133;
+  border: 1px solid gray;
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px;
+}
+
+.btnDiv i{
+  font-size: 20px;
+  /* padding-left: 5px; */
+}
+
+.alphas{
+  line-height: 10px;
+  text-align: left;
+}
+
+.alphas p{
+  font-size: 7px;
+}
+
+.alphas h4{
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.btnDiv :hover{
+  border-color: #f68b1e;
+  color: #f68b1e;
+  cursor: pointer;
+}
+
+.footer-section-two {
+  background-color: #535357;
+  padding: 25px 7%;
+}
+
+.footer-section-two-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-header{
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footer-two-list {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 300;
+  margin-top: 12px;
+}
+
+.footer-two-list div {
+  padding-bottom: 5px;
+}
+.footer-two-list :hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-two-icon{
+  color: white;
+  padding-top: 20px;
+}
+
+.footer-two-icon i{
+  padding-right: 15px;
+  font-size: 22px;
+}
+
+.footer-two-icon i:hover{
+  cursor: pointer;
+  color: #c46f1b;
+}
+
+.footer-two-icon2{
+  color: white;
+  padding-top: 22px;
+}
+
+.footer-two-icon2 i{
+  padding-right: 17px;
+  font-size: 19px;
+}
+
+.footer-two-icon2 i:hover{
+  cursor: pointer;
+  color: #c46f1b;
+}
+
+.footer-header2{
+  margin-top: 56px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.hRule{
+  margin-top: 25px;
+}
+
+.lastRule{
+  border: #bdbaba36 solid 1px;
+}
+
+.lastDiv img{
+  width: 50px;
+  margin-top: 20px;
+}
+
+.lastDiv{
+  text-align: center;
+}
+
+.lastDiv :hover{
+  color: #f68b1e;
+  cursor: pointer;
+}

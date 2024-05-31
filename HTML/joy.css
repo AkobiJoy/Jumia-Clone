@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(184, 88, 88);
+}
+
+.genSection{
+    margin: 30px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+
+.genSection h2{
+    background-color: gold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.ourglasses{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ourglasses div img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.ourglasses div p{
+    text-align: center;
+    
+}
+
+.genSection h4
+{
+    text-align: center;
+    text-decoration: line-through;
+    color: red;
+}
+
+.genSection h3
+{
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
+
+.ourglasses div p :hover
+{
+    background-color: burlywood;
+transition: 0.5s .2s ease-in-out;
+transform: scale(0.7);
+}
+
+
+
+/* 
+because this is a generaal section, everything in the 
+section hovers at once 
+
+.genSection :hover
+{
+    background-color: white;
+} */
+
